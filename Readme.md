@@ -89,7 +89,7 @@ dotnet run --project PatientHubApi
 
 La API estará disponible en:
 - **HTTP**: `http://localhost:5000`
-- **Swagger UI**: `https://localhost:5001/swagger`
+- **Acceso directo**: Navegar a `http://localhost:5000/` redirige automáticamente a Swagger
 
 ## Endpoints de la API
 
@@ -154,7 +154,7 @@ La API estará disponible en:
 | Campo | Tipo | Descripción |
 |-------|------|-------------|
 | `PatientId` | int (PK) | Identificador único |
-| `DocumentType` | nvarchar(50) | Tipo de documento (DNI, Pasaporte, etc.) |
+| `DocumentType` | nvarchar(50) | Tipo de documento |
 | `DocumentNumber` | nvarchar(50) | Número de documento |
 | `FirstName` | nvarchar(100) | Nombre |
 | `LastName` | nvarchar(100) | Apellido |
@@ -178,4 +178,4 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para
 
 ---
 
-**Desarrollado con ❤️ usando .NET 8**
+Desarrollado con ❤️ por [PuelloJ](https://github.com/PuelloJ) 

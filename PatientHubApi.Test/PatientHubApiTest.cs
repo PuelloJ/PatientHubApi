@@ -29,7 +29,7 @@ namespace PatientHubApi.Test
             // Arrange
             var createPatientDto = new CreatePatientDto
             {
-                DocumentType = "DNI",
+                DocumentType = "CC",
                 DocumentNumber = "12345678",
                 FirstName = "John",
                 LastName = "Doe",
@@ -51,7 +51,7 @@ namespace PatientHubApi.Test
             // Arrange
             var createPatientDto1 = new CreatePatientDto
             {
-                DocumentType = "DNI",
+                DocumentType = "CC",
                 DocumentNumber = "12345678",
                 FirstName = "John",
                 LastName = "Doe",
@@ -60,7 +60,7 @@ namespace PatientHubApi.Test
 
             var createPatientDto2 = new CreatePatientDto
             {
-                DocumentType = "DNI",
+                DocumentType = "TI",
                 DocumentNumber = "12345678",
                 FirstName = "Jane",
                 LastName = "Smith",
@@ -79,7 +79,7 @@ namespace PatientHubApi.Test
             // Arrange
             var createPatientDto = new CreatePatientDto
             {
-                DocumentType = "DNI",
+                DocumentType = "CC",
                 DocumentNumber = "12345678",
                 FirstName = "John",
                 LastName = "Doe",
@@ -104,7 +104,7 @@ namespace PatientHubApi.Test
             {
                 var createPatientDto = new CreatePatientDto
                 {
-                    DocumentType = "DNI",
+                    DocumentType = "CC",
                     DocumentNumber = $"1234567{i}",
                     FirstName = $"Patient{i}",
                     LastName = "Test",

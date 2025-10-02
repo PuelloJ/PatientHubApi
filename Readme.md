@@ -126,12 +126,12 @@ La API estará disponible en:
   "data": [
     {
       "patientId": 1,
-      "documentType": "DNI",
+      "documentType": "CC",
       "documentNumber": "12345678",
       "firstName": "Juan",
       "lastName": "Pérez",
       "birthDate": "1990-05-15T00:00:00",
-      "phoneNumber": "+54 11 1234-5678",
+      "phoneNumber": "+57 305 901 2345",
       "email": "juan.perez@email.com",
       "createdAt": "2024-01-15T10:30:00Z"
     }
